@@ -22,7 +22,7 @@ For this project I've used:
 - Code-first aproach: Write the desired code in a way that type-graphql with scalars and metadata can infer all the types of your inputs and outputs (Thanks to decorators in your code) and create the schema dynamically
 - In memory storage
 - Just 1 query: getAllAppointments -> Retrieve all appointments objects, available fields for selection: Appointment Start date and time, Appointment End date of time, and Customer id and name
-- Just 1 mutation: CreateAppointment -> Expect a customer ID, start date and end date as parameter, returns the created appointment, available fields for selection: Appointment Start date and time, Appointment End date of time, and Customer id and name
+- Just 1 mutation: CreateAppointment -> Expect a customer ID, start date and end date as parameter, returns the created appointment, available fields for selection: Appointment Start date and time, Appointment End date of time, and Customer id and name. **Obs: Start date and End date shoud be in ISO 8601 format, for sample "2025-05-22T18:31:00Z"**
 
 # Run Instructions
 
